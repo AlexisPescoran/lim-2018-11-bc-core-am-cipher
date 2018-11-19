@@ -7,8 +7,38 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola Mundo </h1>
-    </div>
+
+      <h1>Bienvenid@</h1>
+      <p>las indicaciones para el fucionamiento de la web page</p>
+      <button type='button' id='btn-start'>Comenzar</button>
+      <div>
+        <label>Ingrese el texto a cifrar </label>
+        <textarea rows="6" cols="50" id='txt-text1'></textarea>
+      </div>
+      <div>
+        <label> Ingresa el número de desplazamiento </label>
+        <input type='text' id='num-encode'></input>
+      </div>
+        <button type='button' id='btn-encode'>Cifrar</button>
+      <div>
+        <label> El texto cifrado es: </label>
+        <textarea rows="6" cols="50" id='txt-encode'></textarea>
+      </div>
+        <div>
+          <label> Ingrese el texto a descifrar </label>
+          <textarea rows="6" cols="50" id='txt-text2'></textarea>
+        </div>
+        <div>
+          <label>Ingresa el número de desplazamiento </label>
+          <input type='text' id='num-decode'></text>
+        </div>
+          <button type='button' id='btn-decode'>Descifrar</button>
+        <div>
+          <label> El texto descifrado es: </label>
+          <textarea rows="6" cols="50" id='txt-decode'></textarea>
+        </div>
+
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
