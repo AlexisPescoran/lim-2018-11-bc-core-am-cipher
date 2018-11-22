@@ -19,13 +19,18 @@ const startProgram = () => {
 const actionEncode = () => {
   let texto1 = txtText1.value;
   txtEncode.value = texto1;
-
+  alert(encode(texto1));
 }
 
 const actionDecode = () => {
   let texto2 = txtText2.value;
   txtDecode.value = texto2;
 
+}
+
+const encode = (letra) => {
+  let l = letra;
+  return l.toUpperCase();
 }
 
 btnStart.addEventListener('click', startProgram);
