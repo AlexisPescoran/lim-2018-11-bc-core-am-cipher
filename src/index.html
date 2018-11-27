@@ -17,78 +17,41 @@
       </div>
       <div id='screen-2'>
         <div>
-          <label> Ingresa el número de desplazamiento </label>
+          <label> Código secreto </label>
           <input type='text' id='num-encode'></input>
         </div>
         <div>
-          <p>Llene su lista</p>
-          <li><label>Tipo del producto </label></li>
-          <input type='text' id='txt-type'></input>
-          <button type='button' id='btn-add-type'>Add</button>
-          <li><label>Modelo del producto </label></li>
-          <input type='text' id='txt-model'></input>
-          <button type='button' id='btn-add-model'>Add</button>
-          <li><label>Unidades </label></li>
-          <input type='text' id='txt-units'></input>
-          <button type='button' id='btn-add-units'>Add</button>
-          <li><label>Precio costo </label></li>
-          <input type='text' id='txt-cost'></input>
-          <button type='button' id='btn-add-cost'>Add</button>
-          <li><label>Precio venta </label></li>
-          <input type='text' id='txt-sale'></input>
-          <button type='button' id='btn-add-sale'>Add</button>
-        <div>
-          <button type='button' id='btn-show-list'>Mostrar lista</button>
-          <table>
-            <tr>
-              <th>Tipo</th>
-              <th>Modelo</th>
-              <th>Cantidad</th>
-              <th>Precio costo</th>
-              <th>Precio venta</th>
-            </tr>
-          </table>
-        </div>
-        <div>
-          <p>¿Qué desea cifrar?</p>
-          <input type='radio' name='options' id='r-type'>Tipo</input>
-          <input type='radio' name='options' id='r-model'>Modelo</input>
-          <input type='radio' name='options' id='r-units'>Cantidad</input>
-          <input type='radio' name='options' id='r-cost'>Precio costo</input>
-          <input type='radio' name='options' id='r-sale'>Precio venta</input>
-        </div>
+          <p>¿Quienes participan?</p>
+          <p id='new'></p>
+          <textarea rows="15" cols="20" id='txt-text1'></textarea>
         </div>
         <div>
           <button type='button' id='btn-encode'>Cifrar</button>
-        </div>
-        <div>
-          <label> Su lista es: </label>
-          <textarea rows="6" cols="50" id='txt-encode'></textarea>
         </div>
         <div>
           <button type='button' id='btn-go-back-1'>Volver a Inicio</button>
         </div>
       </div>
       <div id= 'screen-3'>
-          <div>
-            <label> Ingrese el texto a descifrar </label>
-            <textarea rows="6" cols="50" id='txt-text2'></textarea>
-          </div>
-          <div>
-            <label>Ingresa el número de desplazamiento </label>
-            <input type='text' id='num-decode'></text>
-          </div>
-            <button type='button' id='btn-decode'>Descifrar</button>
-          <div>
-            <label> El texto descifrado es: </label>
-            <textarea rows="6" cols="50" id='txt-decode'></textarea>
-          </div>
-          <div>
-            <button type=button id='btn-go-back-2'>Volver a Inicio</button>
-          </div>
+        <div>
+          <label>Ingresa el número de desplazamiento </label>
+          <input type='text' id='num-decode'></text>
         </div>
-
+        <div>
+          <label> Ingrese el texto a descifrar </label>
+          <textarea rows="6" cols="50" id='txt-text2'></textarea>
+        </div>
+          <button type='button' id='btn-decode'>Descifrar</button>
+        <div>
+          <label> El texto descifrado es: </label>
+          <textarea rows="6" cols="50" id='txt-decode'></textarea>
+        </div>
+        <div>
+          <button type=button id='btn-go-back-2'>Volver a Inicio</button>
+        </div>
       </div>
+
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
