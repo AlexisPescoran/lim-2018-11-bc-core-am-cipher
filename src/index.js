@@ -13,8 +13,7 @@ const btnGoBack2 = document.getElementById('btn-go-back-2');
 
 const txtText1 = document.getElementById('txt-text1');
 const txtText2 = document.getElementById('txt-text2');
-const txtEncode = document.getElementById('txt-encode');
-//const txtDecode = document.getElementById('txt-decode');
+const txtDecode = document.getElementById('txt-decode');
 const numEncode = document.getElementById('num-encode');
 const numDecode = document.getElementById('num-decode');
 
@@ -23,48 +22,59 @@ const numDecode = document.getElementById('num-decode');
 const seeInstructions = () => {
   alert('probando');
 }
+//Click del botón cifrar
+const actionEncode = () => {
+  let texto = txtText1.value.toUpperCase();
+  let number = parseInt(numEncode.value);
+
+  document.getElementById('new').innerHTML = 'Aquí tienes los nombres secretos';
+  txtText1.value = cipher.encode(number,texto);
+}
+
+//Click del botón descifrar
+const actionDecode = () => {
+  let texto = txtText2.value.toUpperCase();
+  let number = parseInt(numDecode.value);
+
+  txtDecode.value = cipher.decode(number,texto);
+}
 
 //Click del botón Volver a inicio 1
-goBack1 = () => {
+const goBack1 = () => {
     document.getElementById('screen-2').style.display='none';
     document.getElementById('screen-1').style.display='block';
     clearInputs();
 }
 //Click del botón Volver a inicio 2
-goBack2 = () => {
+const goBack2 = () => {
     document.getElementById('screen-3').style.display='none';
     document.getElementById('screen-1').style.display='block';
     clearInputs();
 }
 
 //Creando la función limpiar
-clearInputs = () => {
+const clearInputs = () => {
   txtText1.value="";
   numEncode.value="";
   //txtEncode.value="";
-  document,getElementById('new').innerHTML="";
+  document.getElementById('new').innerHTML="";
 
   txtText2.value="";
   numDecode.value="";
   txtDecode.value="";
 }
 
-//Click del botón cifrar
-const actionEncode = () => {
-  let texto1 = txtText1.value.toUpperCase();
-  let number1 = parseInt(numEncode.value);
-
-  document.getElementById('new').innerHTML = 'Aquí tienes los nombres secretos';
-  txtText1.value = cipher.encode(number1,texto1);
+const goEncode = () => {
+    document.getElementById('screen-1').style.display='none';
+    //document.getElementById('screen-3').style.display='none';
+    document.getElementById('screen-2').style.display='block';
+}
+const goDecode = () => {
+    document.getElementById('screen-1').style.display='none';
+    document.getElementById('screen-2').style.display='none';
+    document.getElementById('screen-3').style.display='block';
 }
 
-//Click del botón descifrar
-const actionDecode = () => {
-  let texto2 = txtText2.value.toUpperCase();
-  let number2 = parseInt(numDecode.value);
-
-  txtDecode.value = cipher.decode(number2,texto2);
-}
 
 //Eventos de los botones
 btnSeeInstructions.addEventListener('click', seeInstructions);
@@ -72,13 +82,5 @@ btnEncode.addEventListener('click', actionEncode);
 btnDecode.addEventListener('click', actionDecode);
 btnGoBack1.addEventListener('click', goBack1);
 btnGoBack2.addEventListener('click', goBack2);
-
-btnGoEncode.addEventListener('click', goEncode = () => {
-    document.getElementById('screen-1').style.display='none';
-    //document.getElementById('screen-3').style.display='none';
-    document.getElementById('screen-2').style.display='block';});
-btnGoDecode.addEventListener('click', goDecode = () => {
-    document.getElementById('screen-1').style.display='none';
-    document.getElementById('screen-2').style.display='none';
-    document.getElementById('screen-3').style.display='block';
-});
+btnGoEncode.addEventListener('click', goEncode );
+btnGoDecode.addEventListener('click', goDecode );
