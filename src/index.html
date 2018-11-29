@@ -6,29 +6,38 @@
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sedgwick+Ave" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+
   </head>
   <body>
     <div id="root">
       <div id="screen-1">
         <div class="header">
         <h1>Amigo Secreto</h1>
+        </div>
+        <hr>
         <p><span id="welcome">¡Bienvenido!</span> Solo tú podrás saber quién es tu amigo secreto, no mas fisgones arruinando la sorpresa</p>
-      </div>
+        <section>
         <button type="button" class="see-instructions" id="btn-see-instructions">Ver instrucciones</button>
         <ul type="none" id="instructions">
             <li id="l1"></li>
             <li id="l2"></li>
         </ul>
+        <hr>
         <button type="button" class="go-encode" id="btn-go-encode">Ir a cifrar</button>
         <button type="button" class= "go-decode" id="btn-go-decode">Ir a descifrar</button>
       </div>
+      <section>
       <div id="screen-2">
+        <hr>
         <div>
           <label> Código secreto </label>
           <input type="text" id="num-encode" autofocus>
         </div>
         <div>
-          <p>¿Quienes participan?</p>
+          <p id="who">¿Quienes participan?</p>
           <p id="new"></p>
           <textarea rows="15" cols="20" id="txt-text1"></textarea>
         </div>
@@ -36,10 +45,12 @@
           <button type="button" id="btn-encode">Cifrar</button>
         </div>
         <div>
+          <hr>
           <button type="button" id="btn-go-back-1">Volver a Inicio</button>
         </div>
       </div>
       <div id= "screen-3">
+        <hr>
         <div>
           <label>Código secreto</label>
           <input type="text" id="num-decode" autofocus>
@@ -50,10 +61,12 @@
         </div>
           <button type="button" id="btn-decode">Descifrar</button>
         <div>
-          <label> Tú amigo secreto es </label>
+          <hr>
+          <label id="lbl-secret-name"> Tú amigo secreto es </label>
           <input type="text" id="txt-decode" disabled>
         </div>
         <div>
+          <hr>
           <button type="button" id="btn-go-back-2">Volver a Inicio</button>
         </div>
       </div>

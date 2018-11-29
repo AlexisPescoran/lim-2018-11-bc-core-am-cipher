@@ -28,8 +28,13 @@ const actionEncode = () => {
   let texto = txtText1.value.toUpperCase();
   let number = parseInt(numEncode.value);
 
-  document.getElementById('new').innerHTML = 'Aquí tienes los nombres secretos';
-  txtText1.value = cipher.encode(number,texto);
+  if(numEncode.value==="" || txtText1.value===""){
+    alert('Verifica que hayas ingresado correctamente los datos');
+  }else {
+    document.getElementById('who').innerHTML="";
+    document.getElementById('new').innerHTML = 'Aquí tienes los nombres secretos';
+    txtText1.value = cipher.encode(number,texto);
+  }
 }
 
 //Click del botón descifrar
@@ -37,7 +42,12 @@ const actionDecode = () => {
   let texto = txtText2.value.toUpperCase();
   let number = parseInt(numDecode.value);
 
-  txtDecode.value = cipher.decode(number,texto);
+  if(numDecode.value ===""||txtText2.value ==="")
+  {
+    alert('Verifica que hayas ingresado correctamente los datos');
+  }else{
+    txtDecode.value = cipher.decode(number,texto);
+  }
 }
 
 //Click del botón Volver a inicio 1
@@ -59,6 +69,8 @@ const clearInputs = () => {
   numEncode.value="";
   //txtEncode.value="";
   document.getElementById('new').innerHTML="";
+  document.getElementById('l1').innerHTML="";
+  document.getElementById('l2').innerHTML="";
 
   txtText2.value="";
   numDecode.value="";
