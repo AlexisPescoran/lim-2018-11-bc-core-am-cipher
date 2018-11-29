@@ -9,9 +9,9 @@ window.cipher = {
       let newAscciPosition = (((string[i].charCodeAt() -65) +offset) %26) +65;
       let newChar = String.fromCharCode(newAscciPosition);
       mensaje = mensaje + newChar;
-    }/*else {
+    }else {
       mensaje = mensaje + string[i];
-    }*/
+    }
   }
    return mensaje;
  },

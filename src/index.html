@@ -4,21 +4,28 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sedgwick+Ave" rel="stylesheet">
   </head>
   <body>
     <div id="root">
-
       <div id="screen-1">
-        <h1>Bienvenid@</h1>
-        <p>las indicaciones para el fucionamiento de la web page</p>
-        <button type="button" id="btn-see-instructions">Ver instrucciones</button>
-        <button type="button" id="btn-go-encode">Ir a cifrar</button>
-        <button type="button" id="btn-go-decode">Ir a descifrar</button>
+        <div class="header">
+        <h1>Amigo Secreto</h1>
+        <p><span id="welcome">¡Bienvenido!</span> Solo tú podrás saber quién es tu amigo secreto, no mas fisgones arruinando la sorpresa</p>
+      </div>
+        <button type="button" class="see-instructions" id="btn-see-instructions">Ver instrucciones</button>
+        <ul type="none" id="instructions">
+            <li id="l1"></li>
+            <li id="l2"></li>
+        </ul>
+        <button type="button" class="go-encode" id="btn-go-encode">Ir a cifrar</button>
+        <button type="button" class= "go-decode" id="btn-go-decode">Ir a descifrar</button>
       </div>
       <div id="screen-2">
         <div>
           <label> Código secreto </label>
-          <input type="text" id="num-encode">
+          <input type="text" id="num-encode" autofocus>
         </div>
         <div>
           <p>¿Quienes participan?</p>
@@ -34,17 +41,17 @@
       </div>
       <div id= "screen-3">
         <div>
+          <label>Código secreto</label>
+          <input type="text" id="num-decode" autofocus>
+        </div>
+        <div>
           <label> Dime el nombre secreto </label>
           <input type="text" id="txt-text2">
         </div>
-        <div>
-          <label>Código secreto</label>
-          <input type="text" id="num-decode">
-        </div>
           <button type="button" id="btn-decode">Descifrar</button>
         <div>
-          <label> El nombre de tu amigo es</label>
-          <input type="text" id="txt-decode">
+          <label> Tú amigo secreto es </label>
+          <input type="text" id="txt-decode" disabled>
         </div>
         <div>
           <button type="button" id="btn-go-back-2">Volver a Inicio</button>

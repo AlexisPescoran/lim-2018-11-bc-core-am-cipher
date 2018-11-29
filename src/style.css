@@ -1,3 +1,44 @@
-#root{
-  background-color:rgb(80%, 90%, 88%);
+body{
+  width: 100%;
+  background-color:rgb(95%, 58%, 62%);
+  background-image: url(https://image.freepik.com/vector-gratis/cute-christmas-holidays-cartoon-seamless-pattern_39151-224.jpg);
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size:30px;
+
+}
+.header{
+  background-color: rgba(235, 222, 240, 0.5);
+
+}
+#welcome{
+  font-size: 35px;
+  color:#6E2C00;
+  text-shadow: 10px 10px WHITE;
+}
+#instructions{
+  background-color: rgba(235, 222, 240, 0.5);
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+button{
+  border: 5px solid #6E2C00;
+  border-radius: 30px;
+  border:
+      color:#6E2C00;
+      padding: 16px 30px;
+      text-align: center;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-family: 'Indie Flower', cursive;
+      font-weight: bold;
+      font-size: 25px;
+  color: #6E2C00;
+
+  background: transparent;
 }
