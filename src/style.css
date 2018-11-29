@@ -83,8 +83,12 @@ p{
   padding-top: 0%;
   padding-top: 0%;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     body {
         font-size: 15px;
+    }
+    #instructions{
+      font-size: 10px;
+      margin-left: 10%;
     }
 }
