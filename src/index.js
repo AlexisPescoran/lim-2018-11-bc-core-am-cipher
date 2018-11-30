@@ -20,8 +20,9 @@ const numDecode = document.getElementById('num-decode');
 
 //Click del botón ver instrucciones
 const seeInstructions = () => {
-  document.getElementById("l1").innerHTML="* Si quieres ocultar la lista de los participantes, dale click en &quotcubrir&quot";
-  document.getElementById("l2").innerHTML="* Si quieres descubrir quien es tu amigo secreto, dale click en &quotdescubrir&quot"
+  document.getElementById("l1").innerHTML="* Es una web que te ayuda a ocultar la lista de participantes";
+  document.getElementById("l2").innerHTML="* Si quieres ocultar la lista de los participantes, dale click en &quotcubrir&quot para cifrar la lista";
+  document.getElementById("l3").innerHTML="* Si quieres descubrir quien es tu amigo secreto, dale click en &quotdescubrir&quot para descubrir quien es el elegido"
 }
 //Click del botón cifrar
 const actionEncode = () => {
@@ -71,6 +72,7 @@ const clearInputs = () => {
   document.getElementById('new').innerHTML="";
   document.getElementById('l1').innerHTML="";
   document.getElementById('l2').innerHTML="";
+  document.getElementById('l3').innerHTML="";
 
   txtText2.value="";
   numDecode.value="";
