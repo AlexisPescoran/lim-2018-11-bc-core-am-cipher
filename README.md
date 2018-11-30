@@ -2,10 +2,10 @@
 
 *Está página web está diseñada para cifrar la lista de amigos que quieren participar en el famoso juego "Amigos Secretos". Asimismo, te permite descubrir quién es tu amigo cuando ingresas el nombre oculto. Está no es una página de sorteo, solo es una herramienta para hacer ese momento de sorteo más confidencial.*
 
-![Sin titulo](https://alexispescoran.github.io/lim-2018-11-bc-core-am-cipher/src/)
-
+![imagen](https://subefotos.com/ver/?3e40848f988cdfe3d41ebcb946d70769o.png#codig)
 
 ***+¿Quiénes son los principales usuarios del producto?***
+
 
 >*Los principales usuarios son las personas entusiastas que quieran jugar correctamente “amigo secreto”. Incluso, profesores de instituciones pueden usar este recurso para evitar el desorden en sus clases; ya que estamos en el mes de diciembre, son los mismos alumnos quienes solicitan jugar esto. Las familias o amigos que suelen reunirse en fiestas de fin de año también pueden usar este producto.*
 
