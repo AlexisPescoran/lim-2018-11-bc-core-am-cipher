@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Amigo Secreto realmente secreto
 
 *Definición del producto*
@@ -7,20 +8,24 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+=======
+# *Amigo Secreto realmente secreto*
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+*Está página web está diseñada para cifrar la lista de amigos que quieren participar en el famoso juego "Amigos Secretos". Asimismo, te permite descubrir quién es tu amigo cuando ingresas el nombre oculto. Está no es una página de sorteo, solo es una herramienta para hacer ese momento de sorteo más confidencial.*
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+>>>>>>> 3865d334835fb3fe018c6d13573ddafa1fa394fa
 
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+**+¿Quiénes son los principales usuarios del producto?**
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+>*Los principales usuarios son las personas entusiastas que quieran jugar correctamente “amigo secreto”. Incluso, profesores de instituciones pueden usar este recurso para evitar el desorden en sus clases; ya que estamos en el mes de diciembre, son los mismos alumnos quienes solicitan jugar esto. Las familias o amigos que suelen reunirse en fiestas de fin de año también pueden usar este producto.*
 
-## Resumen del proyecto
+***+¿Cuáles son los objetivos de estos usuarios en relación con tu producto?***
 
+>*El objetivo principal del usuario es la confidencialidad, ellos buscan que se mantenga la magia del factor sorpresa.*
+
+***+¿Cómo crees que el producto que estás creando está resolviendo sus problemas?***
+
+<<<<<<< HEAD
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de ejemplo:
@@ -292,3 +297,6 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
+=======
+>*La idea de la página web nació con el propósito de solucionar un par de problemáticas que sucede al momento de hacer un sorteo para amigos secretos. Primero, al momento de hacer un sorteo presencial nunca falta aquella persona que quiere “saber sobre quien le tocó a quien” y se pasa husmeando en el papelito ajeno, rompiendo así el encanto del juego. Segundo, en ciertas ocasiones, una vez realizado el sorteo, hay quienes no quieren jugar con quien salió sorteado y piden a otros cambiar el papelito sorteado. Por tal motivo, la página web “Amigos secretos realmente secretos” es la opción para evitar los percances mencionados.*
+>>>>>>> 3865d334835fb3fe018c6d13573ddafa1fa394fa
