@@ -2,6 +2,9 @@
 
 *Está página web está diseñada para cifrar la lista de amigos que quieren participar en el famoso juego "Amigos Secretos". Asimismo, te permite descubrir quién es tu amigo cuando ingresas el nombre oculto. Está no es una página de sorteo, solo es una herramienta para hacer ese momento de sorteo más confidencial.*
 
+![](https://alexispescoran.github.io/lim-2018-11-bc-core-am-cipher/src/)
+![](pics/page-amigo-secreto.png)
+
 
 ***+¿Quiénes son los principales usuarios del producto?***
 
