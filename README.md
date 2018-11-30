@@ -1,4 +1,6 @@
-# Cifrado César
+# Amigo Secreto realmente secreto
+
+Está página web está diseñada para cifrar la lista de amigos que quieren participar en el famoso juego "Amigos Secretos". Asimismo, te permite descubrir quién es tu amigo cuando ingresas el nombre oculto. Está no es un página de sorteo, solo es una herrmamienta para hacer ese momento de sorteo más confidencial.
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
