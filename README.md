@@ -2,7 +2,7 @@
 
 *Está página web está diseñada para cifrar la lista de amigos que quieren participar en el famoso juego "Amigos Secretos". Asimismo, te permite descubrir quién es tu amigo cuando ingresas el nombre oculto. Está no es una página de sorteo, solo es una herramienta para hacer ese momento de sorteo más confidencial.*
 
-![imagen](https://subefotos.com/ver/?3e40848f988cdfe3d41ebcb946d70769o.png#codig)
+![imagen](https://subefotos.com/ver/?3e40848f988cdfe3d41ebcb946d70769o.png)
 
 ***+¿Quiénes son los principales usuarios del producto?***
 
